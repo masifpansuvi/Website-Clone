@@ -1,29 +1,10 @@
-// export default {
-//   theme: {
-//     extend: {
-//       fontFamily: {
-//         sans: ["'Source Sans 3'", "sans-serif"],
-//       },
-//     },
-//   },
-//   plugins: [],
-// };
-exports = {
-  content: [
-    "./index.html",
-    "./src/*/.{js,jsx,ts,tsx}",
-  ],
+module.exports = {
   theme: {
-    fontFamily: {
-      primary: ["'Source Sans 3'", "system-ui", "sans-serif"],
-    },
-    container: {
-      padding: {
-        DEFAULT: "30px",
-        lg: "0",
+    extend: {
+      fontFamily: {
+        primary: ['"Source Sans 3"', 'sans-serif'], 
       },
     },
-    extend: {},
   },
   plugins: [],
-};
+}
