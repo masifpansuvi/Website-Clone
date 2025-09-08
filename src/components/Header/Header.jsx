@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header className="shadow-md ">
       {/* Top header */}
-      <div className="md:mx-[6%] px-4 md:px-16 py-[22px] ">
+      <div className="px-2 sm:px-6 xl:mx-[6%] xl:px-16  py-[22px]">
         {/* Mobile Layout */}
         <div className="md:hidden flex flex-col items-center gap-2">
           {/* Top links */}
@@ -45,7 +45,7 @@ const Header = () => {
         </div>
 
         {/* Desktop Layout */}
-        <div className="hidden md:flex items-center justify-between ">
+        <div className="hidden md:flex lg:items-center lg:justify-between justify-around ">
           {/* Logo + Title */}
           <div className="flex justify-center ">
             <img src={logo} alt="logo" className="w-16 h-16" />
@@ -76,7 +76,7 @@ const Header = () => {
 
       {/* Desktop Nav */}
       <nav className="hidden md:block bg-black text-white ">
-        <ul className="flex gap-10 mx-[8%] px-12 py-3 ">
+        <ul className="flex gap-10 xl:mx-[8%] px-12 py-3 ">
           <Link to={"/sellhome"}>
             <li className="font-bold text-lg cursor-pointer text-[21px]">
               Sell Your Home ›

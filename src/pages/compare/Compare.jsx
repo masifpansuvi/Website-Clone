@@ -7,7 +7,7 @@ const Compare = () => {
   return (
     <>
       <Header />
-      <main className="min-h-screen bg-white font-primary text-darkGray px-4 py-8 sm:px-6 md:px-8 lg:px-[100px]">
+      <main className="min-h-screen bg-white font-primary text-darkGray px-4 py-8 sm:px-6 md:px-8 xl:px-[100px]">
         {/* Centered container that mimics the reference width/centered look */}
         <div className="mx-auto w-full max-w-5xl">
           {/* Title (centered like the reference) */}

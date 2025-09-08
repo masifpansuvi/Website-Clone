@@ -14,8 +14,8 @@ const Home = () => {
   return (
     <>
       <Header />
-
-      <section className="hero w-full bg-cover bg-center md:px-[10%] md:py-4 overflow-hidden">
+ 
+      <section className="hero w-full sm:px-2 bg-cover bg-center xl:px-[10%] py-2 xl:py-4 overflow-hidden">
         <div className="flex flex-col md:flex-row items-center md:items-start w-full">
           <div className="w-full md:w-1/2 text-white px-4 md:p-6">
             <div className="overley w-full h-fit p-4">
@@ -66,7 +66,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="px-6 md:px-[12%] py-12 font-primary">
+      <section className="px-6 xl:px-[12%] py-12 font-primary">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div className="md:col-span-2 font-primary">
             <h2 className="md:text-4xl text-3xl font-bold mb-6 text-center px-1 leading-11 text-[#212529]">

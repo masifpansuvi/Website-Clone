@@ -12,7 +12,7 @@ export default function ProcessPage() {
   return (
     <>
     <Header />
-    <section className="px-4 md:px-[12%] py-12">
+    <section className="px-6 xl:px-[12%] py-12">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
         {/* Left sidebar*/}
         <div className="md:col-span-2 font-primary">
@@ -26,7 +26,7 @@ export default function ProcessPage() {
             {/* Step 1 */}
             <div className="flex gap-3 my-8">
               <img src={step1} alt="step1" />
-              <p className="text-[#212529] text-[16px] md:text-[27px] font-bold leading-6">
+              <p className="text-[#212529] text-[16px] sm:text-[27px] font-bold leading-6">
                 Tell us about your property –{" "}
                 <span className="text-orange-600 font-semibold">
                   Quick, Easy & Free!

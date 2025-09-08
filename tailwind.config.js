@@ -1,8 +1,8 @@
-module.exports = {
+export default {
   theme: {
     extend: {
       fontFamily: {
-        primary: ['"Source Sans 3"', 'sans-serif'], 
+        sans: ['"Source Sans 3"', 'sans-serif'],
       },
     },
   },
