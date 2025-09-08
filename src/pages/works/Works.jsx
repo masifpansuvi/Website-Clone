@@ -12,7 +12,7 @@ export default function ProcessPage() {
   return (
     <>
     <Header />
-    <section className="px-4 md:px-[12%] py-12">
+    <section className="px-6 xl:px-[12%] py-12">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
         {/* Left sidebar*/}
         <div className="md:col-span-2 font-primary">
@@ -26,18 +26,18 @@ export default function ProcessPage() {
             {/* Step 1 */}
             <div className="flex gap-3 my-8">
               <img src={step1} alt="step1" />
-              <p className="text-[#212529] text-[16px] md:text-[27px] font-bold leading-6">
+              <h4 className="text-[#212529] text-[16px] sm:text-[27px] font-bold leading-8">
                 Tell us about your property –{" "}
                 <span className="text-orange-600 font-semibold">
                   Quick, Easy & Free!
                 </span>
-              </p>
+              </h4>
             </div>
 
             {/* Step 2 */}
             <div className="flex gap-3 my-8">
               <img src={step2} alt="step2" />
-              <h4 className="text-[#212529] text-[16px] md:text-[27px] leading-6">
+              <h4 className="text-[#212529] text-[16px] sm:text-[27px] font-bold leading-8">
                 If it meets our buying criteria, we’ll contact you to set up a
                 quick appointment.
               </h4>
@@ -46,7 +46,7 @@ export default function ProcessPage() {
             {/* Step 3 */}
             <div className="flex gap-3 my-8">
               <img src={step3} alt="step 3" />
-              <h4 className="text-[#212529] text-[16px] md:text-[27px] leading-6">
+              <h4 className="text-[#212529] text-[16px] sm:text-[27px] font-bold leading-8">
                 We’ll present you with a{" "}
                 <span className="text-orange-600 font-semibold">
                   fair written, no-obligation offer.
@@ -57,7 +57,7 @@ export default function ProcessPage() {
             {/* Step 4 */}
             <div className="flex gap-3 my-8">
               <img src={step4} alt="step 4" />
-              <h4 className="text-[#212529] text-[16px] md:text-[27px] leading-6">
+              <h4 className="text-[#212529] text-[16px] sm:text-[27px] font-bold leading-8">
                 We close at a local reputable title company, cash in your hands
                 in as little as 7 days.
               </h4>
@@ -79,8 +79,8 @@ export default function ProcessPage() {
             </h2>
             <p className="text-gray-700 text-[18px] leading-7 mb-4">
               Red Stick Property Solutions LLC buys houses in and around Baton
-              Rouge (and other areas too!). <strong>We’re not listing your house…</strong>
-              we’re actually the ones buying your house. Because <strong>we pay cash</strong>,
+              Rouge (and other areas too!). <strong><u>We’re not listing your house…</u></strong>
+              we’re actually the ones buying your house. Because <strong><u>we pay cash</u></strong>,
               we’re able to close quickly… or on your schedule. Like we’ve mentioned, when you work with us there are no fees…
               like there are when you list your house with an agent. What this
               means to you is you don’t have to worry about extra costs coming
@@ -88,14 +88,14 @@ export default function ProcessPage() {
               house ready for a sale (we’ll buy your house as-is).
             </p>
             <p className="text-gray-700 text-[18px] leading-7 mb-6">
-              Don’t worry about repairing or cleaning up your property. We’ll
-              buy your house in as-is condition… no matter how ugly or pretty it
+              Don’t worry about repairing or cleaning up your property. <u>We’ll
+              buy your house in as-is condition…</u> no matter how ugly or pretty it
               is… no matter the location.
             </p>
             <h3 className="font-bold md:text-3xl text-center my-4" >See what we can offer you for your house…</h3>
             {/* Button */}
-            <button className="w-full md:w-[80%] container md:mx-12 bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 rounded-md shadow-md transition duration-300">
-              See what we can offer you for your house…
+            <button className="w-full md:w-[80%] md:mx-10  bg-[#EC7B03] font-semibold py-3 rounded-md shadow-md transition duration-300">
+              <p className="text-[20px] hover:text-white px-1 hover:underline">Send us some basic details about your house to get started </p> 
             </button>
           </div>
         </div>

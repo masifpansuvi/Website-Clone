@@ -15,7 +15,7 @@ const Home = () => {
     <>
       <Header />
 
-      <section className="hero w-full bg-cover bg-center md:px-[10%] md:py-4 overflow-hidden">
+      <section className="hero w-full sm:px-2 bg-cover bg-center xl:px-[10%] py-2 xl:py-4 overflow-hidden">
         <div className="flex flex-col md:flex-row items-center md:items-start w-full">
           <div className="w-full md:w-1/2 text-white px-4 md:p-6">
             <div className="overley w-full h-fit p-4">
@@ -66,9 +66,9 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="px-6 md:px-[12%] py-12 font-primary">
+      <section className="px-6 xl:px-[12%] py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-          <div className="md:col-span-2 font-primary">
+          <div className="md:col-span-2">
             <h2 className="md:text-4xl text-3xl font-bold mb-6 text-center px-1 leading-11 text-[#212529]">
               “I Need To Sell My House Fast In Baton Rouge!”
             </h2>
@@ -110,60 +110,62 @@ const Home = () => {
               sell.
             </p>
             <div className="w-full">
-  {/* Heading */}
-  <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 mt-8 leading-snug">
-    Do You Need To Sell Your House in Baton Rouge, LOUISIANA?
-  </h2>
+              {/* Heading */}
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 mt-8 leading-snug">
+                Do You Need To Sell Your House in Baton Rouge, LOUISIANA?
+              </h2>
 
-  {/* Paragraph + Image Card */}
-  <div className="flex flex-col md:flex-row md:items-start gap-6 text-[16px] sm:text-[17px] md:text-[18px]">
-    {/* Left side paragraph */}
-    <div className="flex-1 order-2 md:order-1">
-      <p className="mb-4">
-        <strong className="font-semibold">
-          Even if an agent can’t sell your house, we can help.
-        </strong>{" "}
-        (Sometimes selling a house through a real estate agent is not for everyone.)
-      </p>
-      <p>And as a bonus…</p>
+              {/* Paragraph + Image Card */}
+              <div className="flex flex-col md:flex-row md:items-start gap-6 text-[16px] sm:text-[17px] md:text-[18px]">
+                {/* Left side paragraph */}
+                <div className="flex-1 order-2 md:order-1">
+                  <p className="mb-4">
+                    <strong className="font-semibold">
+                      Even if an agent can’t sell your house, we can help.
+                    </strong>{" "}
+                    (Sometimes selling a house through a real estate agent is
+                    not for everyone.)
+                  </p>
+                  <p>And as a bonus…</p>
 
-      {/* First two list items */}
-      <ul className="space-y-2 mt-4 leading-[27px]">
-        <li className="list-disc ml-6">
-          you don’t need to clean up and repair the property
-        </li>
-        <li className="list-disc ml-6">
-          don’t waste time finding an agent who you trust and who
-          can deliver on their promise of selling your house quickly
-        </li>
-      </ul>
-    </div>
+                  {/* First two list items */}
+                  <ul className="mt-4 leading-[25px]">
+                    <li className="list-disc ml-6">
+                      you don’t need to clean up and repair the property
+                    </li>
+                    <li className="list-disc ml-6">
+                      don’t waste time finding an agent who you trust and who
+                      can deliver on their promise of selling your house quickly
+                    </li>
+                  </ul>
+                </div>
 
-    {/* Right side image card */}
-    <div className="w-full md:w-[40%] bg-white rounded-md shadow p-3 text-[16px] sm:text-[17px] md:text-[18px] order-1 md:order-2">
-      <img
-        src={sellout}
-        alt="house"
-        className="w-full h-auto object-cover rounded-md"
-      />
-      <p className="text-sm text-gray-600 mt-2">
-        We can buy your LOUISIANA house. <br />
-        Contact us today!
-      </p>
-    </div>
-  </div>
+                {/* Right side image card */}
+                <div className="w-full md:w-[40%] bg-white rounded-md shadow p-3 text-[16px] sm:text-[17px] md:text-[18px] order-1 md:order-2">
+                  <img
+                    src={sellout}
+                    alt="house"
+                    className="w-full h-auto object-cover rounded-md"
+                  />
+                  <p className="text-sm text-gray-600 mt-2">
+                    We can buy your LOUISIANA house. <br />
+                    Contact us today!
+                  </p>
+                </div>
+              </div>
 
-  {/* Remaining two list items full width */}
-  <ul className="space-y-2 mt-4 text-[16px] sm:text-[17px] md:text-[18px]">
-    <li className="list-disc ml-6">
-      you won’t need to sign a contract that binds you to an agent
-      for a certain term
-    </li>
-    <li className="list-disc ml-6">
-      or deal with the paperwork and the waiting and wondering (and hoping)
-    </li>
-  </ul>
-</div>
+              {/* Remaining two list items full width */}
+              <ul className="text-[16px] sm:text-[17px] md:text-[18px]">
+                <li className="list-disc ml-6">
+                  you won’t need to sign a contract that binds you to an agent
+                  for a certain term
+                </li>
+                <li className="list-disc ml-6">
+                  or deal with the paperwork and the waiting and wondering (and
+                  hoping)
+                </li>
+              </ul>
+            </div>
 
             <div className="text-gray-800 font-primary space-y-4 px-4 md:px-0">
               <p className="text-base sm:text-lg leading-relaxed">
@@ -191,32 +193,33 @@ const Home = () => {
                 the cash quickly, we can close in as little as 7 days because we
                 buy houses with cash and don’t have to rely on traditional bank
                 financing.{" "}
-                <a href="#" className="text-orange-500 hover:underline">
+                <a href="#" className="text-blue-600 hover:underline">
                   (Go here to learn about our process →)
                 </a>
               </p>
 
-              <p className="text-base sm:text-lg leading-relaxed font-semibold">
+              <p className="text-base sm:text-lg leading-relaxed">
                 In short…
               </p>
 
               <p className="text-base sm:text-lg leading-relaxed">
-                No matter what condition your house is in; no matter what
-                situation or timeframe you’re facing…
+                No matter what <u>condition</u> your house is in; no matter what
+                <u>situation</u> or <u>timeframe you’re facing…</u>
               </p>
 
-              <p className="text-base sm:text-lg leading-relaxed">
-                Our goal is to help make your life easier and get you out from
-                under the property that’s stressing you out… while still paying
+              <p className="text-base sm:text-lg text-center leading-relaxed">
+                <strong>Our goal is to help make your life easier and get you out from
+                under the property that’s</strong> stressing you out… while still paying
                 a fast, fair, and honest price for your house.
               </p>
             </div>
             <CashOffer
               title="What Do You Have To Lose? Get Started Now..."
               description="We buy houses in ANY CONDITION in LOUISIANA. There are no commissions or fees and no obligation whatsoever. Start below by giving us a bit of information about your property or call (225) 772-2747..."
-              containerClass="w-full md:w-[70%] mx-auto bg-gray-100 p-6 md:p-4 border border-gray-300 shadow-md font-primary"
+              containerClass="w-full md:w-[70%] mx-auto p-6 md:p-6"
               titleClass="text-lg md:text-3xl font-bold mb-2"
               descriptionClass="text-black mb-4 w-full"
+              formContent = "bg-[#E9ECEF] flex flex-col gap-4 p-4 border border-gray-400"
               inputClass="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-orange-400"
               buttonClass="w-full mt-2 bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 rounded-md transition-colors duration-300"
             />
@@ -226,9 +229,9 @@ const Home = () => {
             <p className="text-[18px] my-4 ">
               We help property owners just like you, in all kinds of situations.
               From divorce, foreclosure, death of a family member, burdensome
-              rental property, and all kinds of other situations. We buy houses
+              rental property, and all kinds of other situations. <u>We buy houses
               in LOUISIANA… including Baton Rouge and surrounding areas and pay
-              a fair cash price, fast. Sometimes, those who own property simply
+              a fair cash price, fast.</u> Sometimes, those who own property simply
               have lives that are too busy to take the time to do all of things
               that typically need to be done to prepare a house to sell on the
               market… if that describes you, just let us know about the property
@@ -236,16 +239,16 @@ const Home = () => {
               <strong>sell your house fast for cash.</strong>
             </p>
 
-            <p>
-              If you simply don’t want to put up with the hassle of owning that
+            <p className="text-[18px] my-4">
+              <u>If you simply don’t want to put up with the hassle of owning that
               house any longer, and if you don’t want to put up with the hassle
               and time-consuming expense of selling your property the
               traditional way, let us know about the property you’d like to be
-              rid of and sell your house fast for cash. Talk to someone in our
+              rid of and sell your house fast for cash.</u> Talk to someone in our
               office before submitting your property information by{" "}
               <strong>calling us today at (225) 772-2747</strong>
             </p>
-            <p className="text-[18px] my-6  leading-relaxed text-gray-400 font-primary">
+            <p className="text-[18px] my-6  text-[#B39B99] font-primary">
               <i>
                 <strong>We buy houses in Baton Rouge, LOUISIANA 70810</strong>{" "}
                 and all surrounding areas in LOUISIANA. If you need to sell your

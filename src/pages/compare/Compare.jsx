@@ -7,7 +7,7 @@ const Compare = () => {
   return (
     <>
       <Header />
-      <main className="min-h-screen bg-white font-primary text-darkGray px-4 py-8 sm:px-6 md:px-8 lg:px-[100px]">
+      <main className="min-h-screen bg-white font-primary text-darkGray px-4 py-8 sm:px-6 md:px-8 xl:px-[100px]">
         {/* Centered container that mimics the reference width/centered look */}
         <div className="mx-auto w-full max-w-5xl">
           {/* Title (centered like the reference) */}
@@ -215,14 +215,15 @@ const Compare = () => {
             </div>
           </section>
 
-          {/* CTA centered */}
           <section className="mb-20 flex justify-center">
             <CashOffer
-              title="Get Your Fair Cash Offer: Start Below!"
+              title="What Do You Have To Lose? Get Started Now..."
               description="We buy houses in ANY CONDITION in LOUISIANA. There are no commissions or fees and no obligation whatsoever. Start below by giving us a bit of information about your property or call (225) 772-2747..."
-              containerClass="w-full md:max-w-[70%]  bg-gray-100 my-6 p-6 md:p-4 border border-gray-300 shadow-md font-primary"
-              titleClass="text-lg md:text-[21px] font-bold mb-2"
-              descriptionClass="text-black mb-4 w-full"
+              containerClass="w-full md:max-w-[70%] my-6 p-6 md:p-4 "
+              titleClass="text-lg md:text-[31px] font-bold mb-2"
+              descriptionClass="text-black text-[18px] mb-4 w-full"
+              formContent="bg-[#E9ECEF] flex flex-col gap-4 border border-gray-400 p-4"
+              form_content = "bg-gray-200 border border-gray-100 flex flex-col gap-4"
               inputClass="w-full border border-gray-300 bg-white rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-orange-400"
               buttonClass="w-full mt-2 bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 rounded-md transition-colors duration-300"
             />
